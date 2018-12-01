@@ -1,0 +1,68 @@
+2018-12-01 07:18:46,761 DEBUG - named parameters: {} - [org.hibernate.engine.QueryParameters] 
+2018-12-01 07:18:46,761 DEBUG - about to open PreparedStatement (open PreparedStatements: 0, globally: 0) - [org.hibernate.jdbc.AbstractBatcher] 
+2018-12-01 07:18:46,761 DEBUG - 
+    select
+        jogador0_.id as id0_,
+        jogador0_.Nome as Nome0_,
+        jogador0_.apelido as apelido0_,
+        jogador0_.cidade as cidade0_,
+        jogador0_.cpf as cpf0_,
+        jogador0_.dataNascimento as dataNasc6_0_,
+        jogador0_.estado as estado0_,
+        jogador0_.numeroCamisa as numeroCa8_0_,
+        jogador0_.pais as pais0_,
+        jogador0_.time as time0_ 
+    from
+        Jogador jogador0_ - [org.hibernate.SQL] 
+2018-12-01 07:18:46,766 DEBUG - preparing statement - [org.hibernate.jdbc.AbstractBatcher] 
+2018-12-01 07:18:46,767 DEBUG - about to open ResultSet (open ResultSets: 0, globally: 0) - [org.hibernate.jdbc.AbstractBatcher] 
+2018-12-01 07:18:46,767 DEBUG - processing result set - [org.hibernate.loader.Loader] 
+2018-12-01 07:18:46,767 DEBUG - result set row: 0 - [org.hibernate.loader.Loader] 
+2018-12-01 07:18:46,767 DEBUG - returning '27' as column: id0_ - [org.hibernate.type.LongType] 
+2018-12-01 07:18:46,767 DEBUG - result row: EntityKey[Models.Jogador#27] - [org.hibernate.loader.Loader] 
+2018-12-01 07:18:46,767 DEBUG - Initializing object from ResultSet: [Models.Jogador#27] - [org.hibernate.loader.Loader] 
+2018-12-01 07:18:46,767 DEBUG - Hydrating entity: [Models.Jogador#27] - [org.hibernate.persister.entity.AbstractEntityPersister] 
+2018-12-01 07:18:46,767 DEBUG - returning 'Fernando Lopes' as column: Nome0_ - [org.hibernate.type.StringType] 
+2018-12-01 07:18:46,767 DEBUG - returning 'FFE' as column: apelido0_ - [org.hibernate.type.StringType] 
+2018-12-01 07:18:46,767 DEBUG - returning 'Fortaleza' as column: cidade0_ - [org.hibernate.type.StringType] 
+2018-12-01 07:18:46,767 DEBUG - returning '456455555' as column: cpf0_ - [org.hibernate.type.StringType] 
+2018-12-01 07:18:46,767 DEBUG - returning '1978-11-11 00:00:00' as column: dataNasc6_0_ - [org.hibernate.type.TimestampType] 
+2018-12-01 07:18:46,767 DEBUG - returning 'Ceará' as column: estado0_ - [org.hibernate.type.StringType] 
+2018-12-01 07:18:46,767 DEBUG - returning '11' as column: numeroCa8_0_ - [org.hibernate.type.IntegerType] 
+2018-12-01 07:18:46,767 DEBUG - returning 'Brasil' as column: pais0_ - [org.hibernate.type.StringType] 
+2018-12-01 07:18:46,767 DEBUG - returning 'Fortaleza' as column: time0_ - [org.hibernate.type.StringType] 
+2018-12-01 07:18:46,767 DEBUG - done processing result set (1 rows) - [org.hibernate.loader.Loader] 
+2018-12-01 07:18:46,767 DEBUG - about to close ResultSet (open ResultSets: 1, globally: 1) - [org.hibernate.jdbc.AbstractBatcher] 
+2018-12-01 07:18:46,767 DEBUG - about to close PreparedStatement (open PreparedStatements: 1, globally: 1) - [org.hibernate.jdbc.AbstractBatcher] 
+2018-12-01 07:18:46,767 DEBUG - closing statement - [org.hibernate.jdbc.AbstractBatcher] 
+2018-12-01 07:18:46,767 DEBUG - total objects hydrated: 1 - [org.hibernate.loader.Loader] 
+2018-12-01 07:18:46,767 DEBUG - resolving associations for [Models.Jogador#27] - [org.hibernate.engine.TwoPhaseLoad] 
+2018-12-01 07:18:46,767 DEBUG - done materializing entity [Models.Jogador#27] - [org.hibernate.engine.TwoPhaseLoad] 
+2018-12-01 07:18:46,767 DEBUG - initializing non-lazy collections - [org.hibernate.engine.StatefulPersistenceContext] 
+2018-12-01 07:18:46,767 DEBUG - commit - [org.hibernate.transaction.JDBCTransaction] 
+2018-12-01 07:18:46,768 DEBUG - automatically flushing session - [org.hibernate.impl.SessionImpl] 
+2018-12-01 07:18:46,768 DEBUG - flushing session - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,768 DEBUG - processing flush-time cascades - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,768 DEBUG - processing cascade ACTION_PERSIST_ON_FLUSH for: Models.Jogador - [org.hibernate.engine.Cascade] 
+2018-12-01 07:18:46,768 DEBUG - done processing cascade ACTION_PERSIST_ON_FLUSH for: Models.Jogador - [org.hibernate.engine.Cascade] 
+2018-12-01 07:18:46,768 DEBUG - dirty checking collections - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,768 DEBUG - Flushing entities and processing referenced collections - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,768 DEBUG - Processing unreferenced collections - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,768 DEBUG - Scheduling collection removes/(re)creates/updates - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,768 DEBUG - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,768 DEBUG - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,768 DEBUG - listing entities: - [org.hibernate.pretty.Printer] 
+2018-12-01 07:18:46,768 DEBUG - Models.Jogador{cidade=Fortaleza, estado=Ceará, apelido=FFE, cpf=456455555, id=27, time=Fortaleza, Nome=Fernando Lopes, dataNascimento=1978-11-11 00:00:00, numeroCamisa=11, pais=Brasil} - [org.hibernate.pretty.Printer] 
+2018-12-01 07:18:46,769 DEBUG - executing flush - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,769 DEBUG - registering flush begin - [org.hibernate.jdbc.ConnectionManager] 
+2018-12-01 07:18:46,769 DEBUG - registering flush end - [org.hibernate.jdbc.ConnectionManager] 
+2018-12-01 07:18:46,769 DEBUG - post flush - [org.hibernate.event.def.AbstractFlushingEventListener] 
+2018-12-01 07:18:46,769 DEBUG - before transaction completion - [org.hibernate.jdbc.JDBCContext] 
+2018-12-01 07:18:46,769 DEBUG - before transaction completion - [org.hibernate.impl.SessionImpl] 
+2018-12-01 07:18:46,769 DEBUG - re-enabling autocommit - [org.hibernate.transaction.JDBCTransaction] 
+2018-12-01 07:18:46,769 DEBUG - committed JDBC Connection - [org.hibernate.transaction.JDBCTransaction] 
+2018-12-01 07:18:46,769 DEBUG - after transaction completion - [org.hibernate.jdbc.JDBCContext] 
+2018-12-01 07:18:46,769 DEBUG - aggressively releasing JDBC connection - [org.hibernate.jdbc.ConnectionManager] 
+2018-12-01 07:18:46,769 DEBUG - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] - [org.hibernate.jdbc.ConnectionManager] 
+2018-12-01 07:18:46,769 DEBUG - returning connection to pool, pool size: 1 - [org.hibernate.connection.DriverManagerConnectionProvider] 
+2018-12-01 07:18:46,769 DEBUG - after transaction completion - [org.hibernate.impl.SessionImpl] 
